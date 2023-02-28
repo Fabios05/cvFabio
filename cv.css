@@ -1,0 +1,96 @@
+body { 
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.countainer {
+position: relative;
+width: 100%;
+max-width: 1000px;
+min-height: 1000px;
+background: #fff;
+margin: 50px;
+display: grid;
+grid-template-columns: 1fr 2fr;
+box-shadow: 0 35px 55px rgba(0, 0, 0, 1);
+}
+
+.countainer .left_Side
+{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.informacion_perfil
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.informacion_perfil h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+.informacion_perfil h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.countainer .right_Side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.informacion_de_contacto
+{
+    padding-top: 40px;
+}
+
+.titulo
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.about
+{
+    margin-bottom: 50px;
+}
+
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.titulo2
+{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p
+{
+    color: #333;
+}
+
